@@ -5,7 +5,6 @@
 
 ## Launch
 
-![screenshot](https://ibb.co/829KKmB)
 
 - git clone https://github.com/JacquesN16/movie-app.git
 - yarn add
