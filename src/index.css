@@ -15,6 +15,11 @@ body {
   
 }
 
+h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 header {
   background-color: #22254b;
   display: flex;

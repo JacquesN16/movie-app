@@ -26,19 +26,18 @@ function App() {
 
     if(searchTerm) {
      getMovies(SEARCH_API + searchTerm);
-
       setSearchTerm('');
-    }
-
-    
+    }  
   };
 
   const handleOnChange = (e) => {
     setSearchTerm(e.target.value);
-  }
+  };
+
   return (
     <> 
-      <header>
+      <h1 className="title">BEST MOVIE APP</h1>
+      <header>  
         <form onSubmit={handleOnSubmit}>
           <input className="search" type="search" placeholder="Search..." 
             value={searchTerm}
